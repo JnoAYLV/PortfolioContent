@@ -14,66 +14,72 @@
     <title>Portfolio Content</title>
 </head>
 <body>
-    <ol>
-        <font size="+10">J Lynch</font>
-        <img src="JLynch.jpg"
-        width="150"
-        height="180">
-        <br> 
-        <img src="GitHubMark.png"> <a href="https://github.com/JnoAYLV">my github </a>
-        <img src="linkedin.png" width="30" height="30"> <a href="https://github.com/JnoAYLV">my linkedin   </a>
-        <img src="email1.png" width="40" height="40"> <a href="mailto:officerjlynch@gmail.com">my email</a>
+    <font size="+10">J Lynch</font>
+    <br>
+    <img src="JLynch.jpg" alt="pic"
+    width="150"
+    height="180">
+    <br> 
+    <img src="GitHubMark.png" alt="GitHub image"> <a href="https://github.com/JnoAYLV">my github </a>
+    <img src="linkedin.png" alt="linkedin image" width="30" height="30"> <a href="https://github.com/JnoAYLV">my linkedin   </a>
+    <img src="email1.png" alt="email image" width="40" height="40"> <a href="mailto:officerjlynch@gmail.com">my email</a>
+    <br>
+    <strong>
+        <font size="+3">Technologies</font>
+        </strong>
+    <table>
+        <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>JavaScript</th>
+            <th>DataBase</th>
+            <th>Concepts</th>
+        </tr>
+        <tr>
+            <th>HTML5</th>
+            <th>Django</th>
+            <th>Express</th>
+            <th>MySQL</th>
+            <th>AJAX</th>
+        </tr>
+        <tr>
+            <th>CSS3</th>
+            <th>Flask</th>
+            <th>Mongoose</th>
+            <th>MongoDB</th>
+            <th>OOP</th>
+        </tr>
+        <tr>
+            <th>Bootstrap</th>
+            <th>Unittest</th>
+            <th>React</th>
+            <th></th>
+            <th>REST</th>
+        </tr>
+    </table>
+    
+        <strong><font size="+3">Social Snakes</font></strong>
         <br>
-        <p><strong>
-            <font size="+3">Technologies</font>
-            </strong></p>
-        <table>
-            <strong>
-            <tr>
-                <th>Front-End</th>
-                <th>Python</th>
-                <th>JavaScript</th>
-                <th>DataBase</th>
-                <th>Concepts</th>
-            </tr>
-            </strong>
-            <tr>
-                <th>HTML5</th>
-                <th>Django</th>
-                <th>Express</th>
-                <th>MySQL</th>
-                <th>AJAX</th>
-            </tr>
-            <tr>
-                <th>CSS3</th>
-                <th>Flask</th>
-                <th>Mongoose</th>
-                <th>MongoDB</th>
-                <th>OOP</th>
-            </tr>
-            <tr>
-                <th>Bootstrap</th>
-                <th>Unittest</th>
-                <th>React</th>
-                <th></th>
-                <th>REST</th>
-            </tr>
-        </table>
-        <p>
-            <strong><font size="+3">Social Snakes</font></strong>
-            <br>
-            <img src="ss.png">
-            <br>
-            Social Media App made in Python - <a href="idk">code</a> | <a href="idk">deployed</a>
-            <br>
-        </p>
-        <strong><font size="+3">Contact Me</font></strong>
+        <img src="ss.png" alt="SS Media">
         <br>
-        Name: <input type="text"> Email: <input type="text">
+        Social Media App made in Python - <a href="idk">code</a> | <a href="idk">deployed</a>
         <br>
-        Message: <textarea></textarea>
-        <br>
-        <button>Send Message</button>
-    </ol>
+    <strong><font size="+3">Contact Me</font></strong>
+    <br>
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" placeholder="Your name...">
+            <label>Email: </label>
+            <input type="text" name="email" placeholder="Your email...">
+        </div>
+        <div>
+            <label>Message: </label>
+            <textarea></textarea>
+
+        </div>
+        <input type="submit" value="Send Message">
+    </form>
+
 </body>
 </html>
